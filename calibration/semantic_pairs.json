@@ -1,0 +1,49 @@
+{
+  "description": "Fictional requirement/evidence pairs for calibrating semantic similarity thresholds. Written to represent each category in general; deliberately NOT derived from the demo vendors.",
+  "categories": {
+    "strong": "Evidence clearly satisfies the requirement, usually without sharing its keywords. Expected: strong match.",
+    "partial": "Evidence is related and addresses the requirement only in part. Expected: partial match.",
+    "unrelated": "Evidence has nothing to do with the requirement. Expected: no match.",
+    "related_different": "Same technical domain, but describes a different capability. Expected: not a strong match.",
+    "keyword_trap": "Shares the requirement's keywords but in a different or negated meaning. Expected: not a strong match."
+  },
+  "pairs": [
+    {"id": "S1", "category": "strong", "requirement": "Previous e-commerce experience", "evidence": "We have developed six online retail platforms for European customers."},
+    {"id": "S2", "category": "strong", "requirement": "Payment integration experience", "evidence": "We integrated Stripe, PayPal and Adyen into several online stores."},
+    {"id": "S3", "category": "strong", "requirement": "Experience building mobile apps for iOS and Android", "evidence": "Our team has shipped more than twenty cross-platform smartphone applications to the App Store and Google Play."},
+    {"id": "S4", "category": "strong", "requirement": "Experience with GDPR-compliant handling of personal data", "evidence": "All our projects follow EU data protection rules for storing and processing customer information."},
+    {"id": "S5", "category": "strong", "requirement": "Automated testing and continuous integration", "evidence": "Every project runs automated unit and integration tests in a CI pipeline on each commit."},
+    {"id": "S6", "category": "strong", "requirement": "Post-launch maintenance and support", "evidence": "After go-live we provide twelve months of bug fixing, updates and technical support."},
+    {"id": "S7", "category": "strong", "requirement": "Agile development with regular sprint demos", "evidence": "We work in two-week Scrum iterations and present the progress to the client at the end of each one."},
+    {"id": "S8", "category": "strong", "requirement": "Accessibility compliance for users with disabilities", "evidence": "Our interfaces are audited against WCAG 2.1 AA so that people using screen readers can use them."},
+    {"id": "S9", "category": "strong", "requirement": "Experience with warehouse and inventory management systems", "evidence": "We built stock tracking software for the distribution centres of a logistics company."},
+
+    {"id": "P1", "category": "partial", "requirement": "Previous e-commerce experience", "evidence": "We built a booking platform for a hotel chain that accepts online payments."},
+    {"id": "P2", "category": "partial", "requirement": "Payment integration experience", "evidence": "Our apps handle user subscriptions and invoicing."},
+    {"id": "P3", "category": "partial", "requirement": "Experience with GDPR-compliant handling of personal data", "evidence": "We take security seriously and encrypt all data at rest."},
+    {"id": "P4", "category": "partial", "requirement": "Post-launch maintenance and support", "evidence": "We offer a 30-day warranty period after delivery."},
+    {"id": "P5", "category": "partial", "requirement": "Experience building mobile apps for iOS and Android", "evidence": "We developed a responsive web application that works well on smartphones."},
+    {"id": "P6", "category": "partial", "requirement": "Automated testing and continuous integration", "evidence": "Our QA engineers manually test every release before deployment."},
+    {"id": "P7", "category": "partial", "requirement": "Agile development with regular sprint demos", "evidence": "We send the client a weekly progress report by email."},
+
+    {"id": "U1", "category": "unrelated", "requirement": "Previous e-commerce experience", "evidence": "Our office is located in a renovated factory building near the river."},
+    {"id": "U2", "category": "unrelated", "requirement": "Payment integration experience", "evidence": "The team enjoys hiking trips together every summer."},
+    {"id": "U3", "category": "unrelated", "requirement": "Accessibility compliance for users with disabilities", "evidence": "We developed firmware for industrial temperature sensors."},
+    {"id": "U4", "category": "unrelated", "requirement": "Post-launch maintenance and support", "evidence": "Our designers created the logo for a local bakery."},
+    {"id": "U5", "category": "unrelated", "requirement": "Experience with warehouse and inventory management systems", "evidence": "We recently won an award for our corporate photography."},
+
+    {"id": "R1", "category": "related_different", "requirement": "Payment integration experience", "evidence": "We built the product catalogue and search function for an online store."},
+    {"id": "R2", "category": "related_different", "requirement": "Previous e-commerce experience", "evidence": "We have built several mobile banking apps."},
+    {"id": "R3", "category": "related_different", "requirement": "Experience building mobile apps for iOS and Android", "evidence": "We develop backend REST APIs that are consumed by other services."},
+    {"id": "R4", "category": "related_different", "requirement": "Automated testing and continuous integration", "evidence": "We deploy applications to Kubernetes clusters on Google Cloud."},
+    {"id": "R5", "category": "related_different", "requirement": "Experience with GDPR-compliant handling of personal data", "evidence": "We have built analytics dashboards for marketing teams."},
+    {"id": "R6", "category": "related_different", "requirement": "Accessibility compliance for users with disabilities", "evidence": "We create pixel-perfect, visually striking user interfaces."},
+
+    {"id": "K1", "category": "keyword_trap", "requirement": "Previous e-commerce experience", "evidence": "We have no previous e-commerce experience, but we are eager to learn."},
+    {"id": "K2", "category": "keyword_trap", "requirement": "Payment integration experience", "evidence": "Payment for our services is due within 30 days of each invoice."},
+    {"id": "K3", "category": "keyword_trap", "requirement": "Experience building mobile apps for iOS and Android", "evidence": "Our team members use iOS and Android phones to stay in touch with clients."},
+    {"id": "K4", "category": "keyword_trap", "requirement": "Automated testing and continuous integration", "evidence": "The continuous integration of new employees into our culture matters, and we test every candidate carefully."},
+    {"id": "K5", "category": "keyword_trap", "requirement": "Post-launch maintenance and support", "evidence": "We support local football clubs and sponsored the launch of a charity run."},
+    {"id": "K6", "category": "keyword_trap", "requirement": "Experience with warehouse and inventory management systems", "evidence": "Our warehouse-style office keeps an inventory of standing desks."}
+  ]
+}

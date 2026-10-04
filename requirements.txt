@@ -1,0 +1,6 @@
+# Runtime dependencies (versions verified by the test suite).
+# torch is installed separately from the CPU-only index (see Dockerfile / CI); sentence-transformers needs it.
+pydantic==2.13.5
+fastapi==0.142.2
+uvicorn==0.54.0
+sentence-transformers==6.1.0

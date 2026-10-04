@@ -1,0 +1,14 @@
+[project]
+name = "vendormatch-ai"
+version = "0.1.0"
+description = "Transparent, explainable compatibility analysis of software vendor proposals."
+requires-python = ">=3.12"
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["."]
+# Real-model tests load all-MiniLM-L6-v2 and are opt-in:  pytest -m model
+addopts = "-ra -m 'not model'"
+markers = [
+    "model: uses the real sentence-transformers model (downloads ~90 MB on first run)",
+]

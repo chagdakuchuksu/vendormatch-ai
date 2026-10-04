@@ -1,0 +1,47 @@
+{
+  "fictional_notice": "FICTIONAL DEMO DATA. These companies do not exist; any resemblance to real companies is coincidental.",
+  "profiles": {
+    "Harborline Software (fictional)": "Strong but slightly expensive: full technology fit, meets the deadline, experienced, about 9% over the flexible budget.",
+    "Kestrel Mobile Labs (fictional)": "Cheap but problematic: well below budget and a good technology fit, but misses the strict 6-month deadline.",
+    "Quillstone Digital (fictional)": "Balanced: within budget and on time, but uses MySQL instead of PostgreSQL, has less company experience and less directly relevant references."
+  },
+  "vendors": [
+    {
+      "name": "Harborline Software (fictional)",
+      "proposed_budget": 54500,
+      "proposed_duration": 5,
+      "duration_unit": "months",
+      "years_experience": 9,
+      "technologies": ["React Native", "Node.js", "PostgreSQL", "TypeScript", "AWS"],
+      "proposal_text": "Harborline Software is a fictional agency with 30 engineers. We have extensive e-commerce experience, including shopping apps for fashion and sportswear retailers. We have integrated payment providers such as Stripe, PayPal and Adyen into mobile checkouts. We work in two-week sprints with a demo at the end of each sprint. Our estimate includes a dedicated QA engineer, which is why it is slightly above the stated budget.",
+      "previous_projects": [
+        "Mobile shopping app for a fictional sportswear retailer with 200,000 monthly users.",
+        "Checkout redesign for a fictional online furniture store that reduced abandoned carts."
+      ]
+    },
+    {
+      "name": "Kestrel Mobile Labs (fictional)",
+      "proposed_budget": 38000,
+      "proposed_duration": 8,
+      "duration_unit": "months",
+      "years_experience": 7,
+      "technologies": ["React Native", "Node.js", "PostgreSQL"],
+      "proposal_text": "Kestrel Mobile Labs is a fictional studio of 12 developers. We have built mobile storefronts and checkout flows for several online shops. Our apps accept card payments through Stripe and Apple Pay. Because our team is committed to other projects until spring, we propose an eight-month timeline at a lower price.",
+      "previous_projects": [
+        "Marketplace app for a fictional network of independent bookshops."
+      ]
+    },
+    {
+      "name": "Quillstone Digital (fictional)",
+      "proposed_budget": 47000,
+      "proposed_duration": 6,
+      "duration_unit": "months",
+      "years_experience": 4,
+      "technologies": ["React Native", "Node.js", "MySQL"],
+      "proposal_text": "Quillstone Digital is a fictional team of mobile developers founded four years ago. We build mobile apps for startups and small businesses. One of our projects was a small web shop for a local clothing boutique. We also built a booking app for a chain of fitness studios where members buy class passes in the app. Our apps handle user subscriptions and invoicing. We can deliver within six months.",
+      "previous_projects": [
+        "Loyalty card app for a fictional coffee shop chain."
+      ]
+    }
+  ]
+}

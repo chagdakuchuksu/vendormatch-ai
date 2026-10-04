@@ -1,0 +1,77 @@
+{
+  "fictional_notice": "FICTIONAL DEMO DATA. The project, the client and all requirements are invented for demonstration purposes.",
+  "project": {
+    "name": "E-commerce Mobile Application (fictional demo)",
+    "description": "Fictional demo project. A mid-sized fashion retailer wants a mobile shopping app for iOS and Android: product catalogue, cart, checkout with online payments, and order tracking. Launch is tied to a seasonal campaign, so the 6-month deadline is strict. The €50,000 budget is a preferred maximum and can flex slightly for a strong proposal.",
+    "budget": 50000,
+    "currency": "EUR",
+    "max_duration": 6,
+    "duration_unit": "months",
+    "required_technologies": ["React Native", "Node.js", "PostgreSQL"],
+    "criteria": [
+      {
+        "name": "Duration",
+        "kind": "duration",
+        "importance": "critical",
+        "requirement_type": "hard",
+        "flexibility": "strict",
+        "description": "Must launch within 6 months for the seasonal campaign."
+      },
+      {
+        "name": "Budget",
+        "kind": "budget",
+        "importance": "high",
+        "requirement_type": "soft",
+        "flexibility": "flexible",
+        "description": "Preferred maximum of €50,000; small overruns are acceptable for a strong proposal."
+      },
+      {
+        "name": "React Native",
+        "kind": "technology",
+        "technology": "React Native",
+        "importance": "critical",
+        "requirement_type": "hard",
+        "description": "One shared codebase for iOS and Android."
+      },
+      {
+        "name": "Node.js",
+        "kind": "technology",
+        "technology": "Node.js",
+        "importance": "critical",
+        "requirement_type": "hard",
+        "description": "Backend must match the client's existing Node.js services."
+      },
+      {
+        "name": "PostgreSQL",
+        "kind": "technology",
+        "technology": "PostgreSQL",
+        "importance": "high",
+        "requirement_type": "soft",
+        "description": "Preferred database; another relational database is acceptable."
+      },
+      {
+        "name": "E-commerce experience",
+        "kind": "text",
+        "importance": "high",
+        "requirement_type": "soft",
+        "description": "Previous e-commerce experience"
+      },
+      {
+        "name": "Payment integration",
+        "kind": "text",
+        "importance": "medium",
+        "requirement_type": "soft",
+        "description": "Payment integration experience"
+      },
+      {
+        "name": "Company experience",
+        "kind": "experience",
+        "min_value": 5,
+        "importance": "medium",
+        "requirement_type": "soft",
+        "flexibility": "flexible",
+        "description": "At least 5 years in business."
+      }
+    ]
+  }
+}

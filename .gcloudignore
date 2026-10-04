@@ -1,0 +1,18 @@
+# Files uploaded to Cloud Build by `gcloud run deploy --source .`
+# (the Dockerfile and .dockerignore must be uploaded; .dockerignore then trims the image).
+.git
+.gitignore
+.github
+.claude
+.venv
+venv
+**/__pycache__
+**/*.pyc
+.pytest_cache
+instance
+*.db
+.env
+.env.*
+tests
+docs
+calibration

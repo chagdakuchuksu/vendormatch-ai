@@ -1,0 +1,26 @@
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+venv/
+*.egg-info/
+
+# Local data (SQLite databases are created at runtime)
+instance/
+*.db
+*.sqlite3
+
+# Secrets and local configuration
+.env
+.env.*
+*.pem
+*-key.json
+service-account*.json
+
+# Editors, OS and local tooling
+.claude/
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db

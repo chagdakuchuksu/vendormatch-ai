@@ -1,0 +1,19 @@
+# Only app/, static/, examples/ and requirements.txt are needed in the image.
+.git
+.github
+.claude
+.venv
+venv
+**/__pycache__
+**/*.pyc
+.pytest_cache
+instance
+*.db
+.env
+tests
+docs
+calibration
+scripts
+*.md
+Dockerfile
+.dockerignore

@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>VendorMatch AI — Software Vendor Evaluation</title>
+  <meta name="description" content="AI-powered software vendor evaluation: transparent, explainable compatibility analysis of development proposals.">
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='7' fill='%231e3a8a'/%3E%3Cpath d='M8 10l5 12 3-7 3 7 5-12' stroke='white' stroke-width='2.6' fill='none' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E">
+  <link rel="stylesheet" href="/css/styles.css">
+</head>
+<body>
+  <a class="skip-link" href="#app">Skip to content</a>
+  <header class="topbar">
+    <div class="container topbar-inner">
+      <a class="brand" href="#/" aria-label="VendorMatch AI home">
+        <span class="brand-mark" aria-hidden="true">VM</span>
+        <span class="brand-text">
+          <strong>VendorMatch AI</strong>
+          <small>Software vendor evaluation</small>
+        </span>
+      </a>
+      <nav class="nav" aria-label="Main">
+        <a href="#/" data-nav="home">Overview</a>
+        <a href="#/projects" data-nav="projects">Projects</a>
+        <a href="/docs" target="_blank" rel="noopener">API docs</a>
+      </nav>
+      <button type="button" class="btn btn-primary" data-action="try-demo">Try Demo</button>
+    </div>
+  </header>
+
+  <main id="app" class="container main" tabindex="-1" aria-live="polite"></main>
+
+  <footer class="footer">
+    <div class="container footer-inner">
+      <span>Decision support only — scores explain fit against your criteria; the decision stays with your team.</span>
+      <span>Semantic matching runs locally (all-MiniLM-L6-v2). No external AI APIs. Demo data is fictional and may reset.</span>
+    </div>
+  </footer>
+
+  <script type="module" src="/js/app.js"></script>
+</body>
+</html>
